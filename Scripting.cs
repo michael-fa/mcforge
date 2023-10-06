@@ -27,6 +27,8 @@ using System.Text;
 
 namespace MCForge
 {
+
+    //This will be absolete, since we're using PAWN Scripts.
     static class Scripting
     {
         private static CodeDomProvider compiler = CodeDomProvider.CreateProvider("CSharp");
